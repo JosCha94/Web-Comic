@@ -1,0 +1,90 @@
+*{ margin: 0; padding: 0;}
+#logo{
+    width: 150px ;
+    margin-top: 2px ;
+   margin-left: 30px;
+}
+#bolsa{
+    float: right;
+    margin-top: 5px ;
+   margin-right: 30px;
+}
+li{
+    float: left;
+    list-style: none;
+    padding: 12px;
+        
+}
+nav{
+    float: right ;
+    margin-top: 30px ;
+    margin-right: 170px;
+}
+a{
+    text-decoration: none;
+    font-family: fantasy;
+    color: black;
+}
+li:hover a{
+    color: #998888;
+}
+header{
+
+    background-color: #F80505;
+}
+body{
+    background-color: #D9D7D7;
+}
+table{
+    align-items: center;
+   margin: auto;
+    border-spacing: 5px;
+}
+
+#tab1{
+    text-align: center;
+}
+#tab2{
+    text-align: center;
+}
+
+.return{
+    float: left;
+    margin-right: 80px;
+}
+
+#visa{
+    width: 100px; height: 100px;
+}
+#master{
+    width: 100px; height: 100px;
+}
+footer{
+    background-color: black;
+}
+.fot1{
+    margin-top: 30px;
+    background-color: whitesmoke;
+}
+#tit{
+    margin-left: 20px;
+}
+
+.formulario{
+    width:300px;
+    height: 162px;
+    background: lightblue;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.formulario2{
+    width:300px;
+    height: 168px;
+    background: lightblue;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}

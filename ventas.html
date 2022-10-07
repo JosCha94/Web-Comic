@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ventas</title>
+</head>
+<link rel="stylesheet" href="estilos2.0.css">
+</head>
+<header>
+          <br>
+                <MARQUEE>
+                                <font color="#000000" size="2" face="Verdana, Arial, Helvetica, sans-serif">
+                                LIBCOMIC LA MEJOR TIENDA DE COMICS ONLINE
+                                </font>
+                </MARQUEE>
+                
+                <a href="index.html"><img id="logo" src="img/logo 2.png" ></a>
+                <img id="bolsa" src="img/carrito.png" >
+
+    <nav>
+          <ul>
+                    <li><a href="promociones.html">PROMOCIONES</a></li>
+                    <li><a href="novedades.html">NOVEDADES</a></li>
+                    <li><a href="superheroes.html">SUPERHEROES</a></li>
+                    <li><a href="comic.html">COMIC</a></li>
+                    <li><a href="manga.html">MANGA</a></li>
+                    <li><a href="merchandising.html">MERCHANDISING</a></li>
+                    <li><a href="login.html">CLIENTE</a></li>           
+           </ul> 
+
+    </nav>
+</header>
+<body >
+         
+            <div class="container">
+            <form method="POST" action="procesar2.php">
+                
+      <h1><font  face="impact"color="#F80505">  <center>COMPRAR</center>  </font></h1>
+         <br>  
+     <p> 
+          <label for="user_ven" > Usuario:* </label>
+          <input type="text" placeholder="Su Usuario" name="user_ven" id="user_ven" required="required"  maxlength="25">
+     </p>
+
+     <p> 
+          <label for="pass_ven" > Contraseña:* </label>
+          <input type="password" placeholder="Su Contraseña" name="pass_ven" id="pass_ven" required="required"  maxlength="25">
+     </p>
+
+  
+     <p> 
+          <label for="mail_ven">E_mail:* </label>
+          <input type="email" id="mail_ven" name="mail_ven" required="required"  maxlength="30" placeholder="Correo" > 
+         
+    </p> 
+
+     <p> 
+          <label for="prod_ven" > Producto:* </label>
+          <input type="text" placeholder="Nombre comic" name="prod_ven" id="prod_ven" required="required"  maxlength="150">
+     </p>
+
+     <p>
+               <label for="cost_tot_ven"> Total: </label>
+               <input type="integer" id="cost_tot_ven" name="cost_tot_ven">
+               
+          </p> 
+     
+          <p>
+                <label for="fec_ven" > Fecha de compra: </label>
+                <input type="text" placeholder="DD/MM/AA" name="fec_ven" id="fec_ven" required="required" value="<?php echo date('Y-m-d')?>"readonly/> 
+          </p>
+         
+     <p> 
+          <label for="dir_ven" > Direccion de entrega:* </label>
+          <input type="text" placeholder="Su direccion" name="dir_ven" id="dir_ven" required="required"  maxlength="150">
+     </p>
+                  
+     <p> 
+          <label for="ciu_ven" > Ciudad:* </label>
+          <input type="text" placeholder="Buenos Aires" name="ciu_ven" id="ciu_ven" required="required"  maxlength="30">
+     </p>
+
+     <p> 
+          <label for="pais_ven" > Pais:* </label>
+          <input type="text" placeholder="Argentina" name="pais_ven" id="pais_ven" required="required"  maxlength="30">
+     </p>    
+      
+
+     <!--<p>
+          <label for="id_ven" > Numero de compra: </label>
+          <input type="hidden"  name="id_ven" id="id_ven" value="(number)+1">
+     </p>-->    
+            
+    <br>         
+               <table cellspacing="10">
+                   <td><input type='submit' value='COMPRAR'></td>
+                   <td><input type='reset' value='LIMPIAR'></td>
+                   <td><input type='reset' value='CANCELAR'></td> 
+                </table>
+                   
+                 
+                  
+
+
+  </form>
+    
+</div>
+  
+  <a href="index.html"><img id="return"src="img/atras.png" width="70" ></a>
+  <br>
+</body>
+<footer id="footer1">
+        <center><table text-align= center>
+        <td><h3> ACEPTAMOS:</td>
+        <td><img src="img/visa.ico"></td>
+        <td><img src="img/master.ico" ></td>
+        <td>  <BR>  </td>
+        <td>  <BR>  </td>
+        <td><h3> EMVIAMOS POR:</td>
+        <td><img src="img/olvita.png"width="300" ></td>   
+        </table></center>    
+    </footer> 
+<footer id="footer2">
+    <center><div><font color=white>Copyright 2019 Todos los derechos reservados para Libcomics Store</font></div></center>
+</footer>
+</html>

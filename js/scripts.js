@@ -1,0 +1,1 @@
+alert("Bienvinido a LibComic");
